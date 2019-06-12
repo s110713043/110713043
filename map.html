@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>MAP</title>
+<link href="../jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="NationalPark.css" rel="stylesheet" type="text/css">
+<link href="accoridion.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+@import url("index.css");
+</style>
+	<link href="myweb.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.indexSlidePattern.js"></script>
+<script language="javascript">
+$(document).ready(function(e){
+	  var opt	=	{
+		"speed"	:	"fast"		,	//变换速度,三速度可选 slow,normal,fast;
+		"by"	:	"mouseover"		,	//触发事件,click或者mouseover;
+		"auto"	:	true		,	//是否自动播放;
+		"sec"	:	3000	 		//自动播放间隔;
+	  };
+      $("#demo").IMGDEMO(opt);    
+});
+	</script><script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+	<script src="../jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+    </script>
+</head>
+
+	<body>
+    <div class="webbox"> 
+      <header>
+        <ul id="demo">
+          <li class="active"> <a href="http://tw.yahoo.com/"><img src="images/1.jpg"  /></a>
+            <div><a href="http://tw.yahoo.com/">1</div>
+          </li>
+          <li> <a href="http://www.youtube.com/"><img src="images/2.jpg"  /></a>
+            <div><a href="http://tw.yahoo.com/">2</div>
+          </li>
+          <li> <a href="http://www.sucaijiayuan.com/"><img src="images/3.jpg"  /></a>
+            <div><a href="http://www.sucaijiayuan.com/">3</a></div>
+          </li>
+          <li> <a href="http://www.sucaijiayuan.com/"><img src="images/4.jpg"  /></a>
+            <div><a href="http://www.sucaijiayuan.com/">4</a></div>
+          </li>
+          <li> <a href="http://www.sucaijiayuan.com/"><img src="images/5.jpg"  /></a>
+            <div><a href="http://tw.yahoo.com/">5</a></div>
+          </li>
+        </ul>
+      </header>
+      <nav>
+         <a href="life.html"> <button class="button">人生哲語</button></a>
+		 <a href="photo.html"> <button class="button">我的收藏</button></a>
+		 <a href="map.html"> <button class="button">影像地圖</button></a>
+		 <a href="effect.html"> <button class="button">美景特效</button></a>
+		 <a href="about.html"> <button class="button">自我介紹</button></a>
+		 <a href="self.html"> <button class="button">自選主題</button></a>
+      </nav>
+<main>map
+        <div id="Tabs1">
+          <ul>
+            <li><a href="#tabs-1">NTUE MAP</a></li>
+            <li><a href="#tabs-2">TAIWAN　MAP</a></li>
+            <li><a href="#tabs-3">VIDEO</a></li>
+          </ul>
+          <div id="tabs-1" align="center">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.314850685382!2d121.54315591554368!3d25.02338698397726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1558580297570!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+          </div>
+          <div id="tabs-2" align="center">
+            <p><img src="images/taiwan.jpg" alt="" width="550" height="740" /></p>
+            <div id="NP01">
+陽明山國家公園緊臨臺北都會區，全區以大屯火山群彙為主，因火山活動造成的錐狀與鐘狀火山體、火口湖、硫氣孔、地熱與溫泉，具有研究及娛樂價值，受季風影響，植物相兼具高草原、矮草原、闊葉樹林、亞熱帶雨林、雨水生植物群落，孕育臺灣水韭、大屯杜鵑、蝴蝶與鳥類，陽明山公園栽植的櫻花及杜鵑，使本區成為臺北近郊最吸引人的賞花場所。
+          </div>
+			<div id="NP02">
+陽明山國家公園緊臨臺北都會區，全區以大屯火山群彙為主，因火山活動造成的錐狀與鐘狀火山體、火口湖、硫氣孔、地熱與溫泉，具有研究及娛樂價值，受季風影響，植物相兼具高草原、矮草原、闊葉樹林、亞熱帶雨林、雨水生植物群落，孕育臺灣水韭、大屯杜鵑、蝴蝶與鳥類，陽明山公園栽植的櫻花及杜鵑，使本區成為臺北近郊最吸引人的賞花場所。
+          </div>
+          <div id="tabs-3" align="center">
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Dnj5Tcpev0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+          </div>
+        </div>
+      </main>
+      <script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+      </script>
+      <footer><p>本網站著作權屬於 國立臺北教育大學</p>
+<p>電話：+886-2-2732-1104  +886-2-6639-6688</p>  
+<p>網址： http://www.ntue.edu.tw</p>
+<p>地址：10671 臺北市大安區和平東路2段134號</p>
+
+網站藝術指導：顏晴榮 教授</p>
+網站維護單位：計算機與網路中心 ｜ 聯絡我們
+
+Visits:2096256
+Update:2019/04/24</footer>
+    </div>
+</body>
+</html>

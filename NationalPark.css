@@ -1,0 +1,25 @@
+#NP01 {
+	position: absolute;
+	font-size: 14px;
+	left: 1200px;
+	top: 100px;
+	text-align: left;
+	width: 250px;
+	height: 280px;
+	visibility: hidden;
+	color: #0E2698;
+	border: thin solid #DE393C;
+
+}
+#NP02 {
+	position: absolute;
+	font-size: 14px;
+	left: 1200px;
+	top: 200px;
+	text-align: left;
+	width: 250px;
+	height: 280px;
+	visibility: hidden;
+	color: #0E2698;
+	border: thin solid #DE393C;
+}
