@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>無標題文件</title>
+	<!-- TemplateEndEditable -->
+	<link href="../accoridion.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+@import url("../index.css");
+</style>
+	<link href="../myweb.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.indexSlidePattern.js"></script>
+	<script language="javascript">
+$(document).ready(function(e){
+	  var opt	=	{
+		"speed"	:	"fast"		,	//变换速度,三速度可选 slow,normal,fast;
+		"by"	:	"mouseover"		,	//触发事件,click或者mouseover;
+		"auto"	:	true		,	//是否自动播放;
+		"sec"	:	3000	 		//自动播放间隔;
+	  };
+      $("#demo").IMGDEMO(opt);    
+});
+	</script>
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+	<body>
+    <div class="webbox" align="center"> 
+      <header>
+        <ul id="demo">
+          <li class="active"> <a href="https://www.pizzafactory.com.tw/menu_class.php"><img src="../images/1.jpg"  /></a>
+            <div><a href="https://www.pizzafactory.com.tw/menu_class.php">Pizza</div>
+          </li>
+          <li> <a href="http://shinemood2006.com/menu.asp"><img src="../images/2.jpg"  /></a>
+            <div><a href="http://shinemood2006.com/menu.asp">Waffle</div>
+          </li>
+          <li> <a href="https://hocom.tw/web/Home/Map?key=6617785223"><img src="../images/3.jpg"  /></a>
+            <div><a href="https://hocom.tw/web/Home/Map?key=6617785223">Fruit</a></div>
+          </li>
+          <li> <a href="https://rododohotpot.weebly.com/"><img src="../images/4.jpg"  /></a>
+            <div><a href="https://rododohotpot.weebly.com/">Hot Pot</a></div>
+          </li>
+          <li> <a href="http://www.in-n-out.com/"><img src="../images/5.jpg"  /></a>
+            <div><a href="http://www.in-n-out.com/">Hamburger</a></div>
+          </li>
+        </ul>
+      </header>
+      <nav align="center">
+		  <div align="center">
+         <a href="../life.html"> <button class="button">人生哲語</button></a>
+		 <a href="../photo.html"> <button class="button">我的收藏</button></a>
+		 <a href="../map.html"> <button class="button">影像地圖</button></a>
+		 <a href="../effect.html"> <button class="button">美景特效</button></a>
+		 <a href="../about.html"> <button class="button">自我介紹</button></a>
+		 <a href="../self.html"> <button class="button">自選主題</button></a>
+      </nav>
+      <!-- TemplateBeginEditable name="EditRegion1" -->
+      <main>嗨</main>
+      <!-- TemplateEndEditable -->
+      <footer><p>本網站著作權屬於 國立臺北教育大學</p>
+              <p>電話：+886-2-2732-1104  +886-2-6639-6688</p>  
+              <p>網址： http://www.ntue.edu.tw</p>
+              <p>地址：10671 臺北市大安區和平東路2段134號</p>
+
+網站藝術指導：郭博州 教授
+網站維護單位：計算機與網路中心 ｜ 聯絡我們
+
+Visits:2096256
+Update:2019/04/24</footer>
+    </div>
+</body>
+</html>
